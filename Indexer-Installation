@@ -1,0 +1,12 @@
+For the Indexer install, I am utilizing the VMware Workstation 17 hypervisor and installed on a Virtual Machine. For the indexer I went in between the recommended hardware specs becasue I'm not going to get many APM (Alerts Per Minute) in my lab environment. 
+
+Wazuh indexer harware recommendations as of 26SEP2024: https://documentation.wazuh.com/current/installation-guide/wazuh-indexer/index.html
+
+My VM Specs:
+OS: Ubuntu 20.04 LTS
+Memory: 8GB
+Processors: 2 Processors using 2 cores (4 processors)
+
+I like the difficult side of installations while I am learning becasue I get to see the underlying processes that are used and it helps to piece together information (at least for me), so I chose to do the step-by-step installation: https://documentation.wazuh.com/current/installation-guide/wazuh-indexer/step-by-step.html
+
+The first road block I hit was step 2 :| for defining the Node name and the corresponding IP address. The documentation didn't state if it needed to be a static IP or not, so I'm now doing some research to see if the node hosting the indexer needs to maintain a static IP address. 
